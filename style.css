@@ -37,6 +37,10 @@ header h1{
 .menu-items .m-item{
     position: relative;
     cursor: pointer;
+    transition: 0.5s;
+}
+.m-item:hover{
+    background: #8223bd;
 }
 .menu-items .m-item a{
     font-size: 18px;
