@@ -50,3 +50,9 @@ header h1{
     background: #A020F0;
     display: none;
 }
+.open-menu{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+}
