@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 .side-bar{
-    background: #8223bd;
+    background: #A020F0;
     width: 250px;
     height: 100vh;
     position: fixed;
@@ -11,4 +12,36 @@
     overflow-y: auto;
     transition: 0.6s ease;
     transition-property: left;
+}
+header{
+    background: #8223bd;
+}
+.btn-cls{
+    position: absolute;
+    font-size: 23px;
+    right: 0px;
+    margin: 15px;
+    cursor: pointer;
+}
+header h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+.menu-items{
+    width: 100%;
+    margin-top: 30px;
+}
+.menu-items .m-item{
+    position: relative;
+    cursor: pointer;
+}
+.menu-items .m-item a{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 7px 35px;
+    line-height: 50px;
 }
