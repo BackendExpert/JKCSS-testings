@@ -7,7 +7,6 @@
     background: #A020F0;
     width: 250px;
     height: 100vh;
-    left: -250px;
     position: fixed;
     top: 0;
     overflow-y: auto;
@@ -49,10 +48,4 @@ header h1{
 .m-item .subm-item{
     background: #A020F0;
     display: none;
-}
-.open-menu{
-    position: absolute;
-    color: black;
-    font-size: 40px;
-    cursor: pointer;
 }
