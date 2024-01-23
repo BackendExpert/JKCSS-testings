@@ -1,0 +1,57 @@
+<style>
+    .popup 
+{
+    position:fixed;
+    border:solid 1px black;
+    /*width:200px;
+    height:200px;*/
+    left:100px;
+    top:100px;
+    margin:-100px 0 0 -100px;
+    display:none;
+    background-color:red;
+    z-index:2000;
+}
+
+.cover 
+{
+    background-color:black;
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    z-index:5000;
+
+}
+
+</style>
+
+<div class="cover"></div>
+<div class="popup">
+    <div class="close"><img src="images/test_eherenfeldbig.jpg" /><button>close</button></div>
+</div>
+
+    <div class="letters">
+      <div class="open">
+       <div class="letter"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','images/test_ehrenfeldmag.jpg',1)"><img src="images/test_ehrenfeld.jpg" name="Image9" width="150" height="180" border="0" id="Image9" /></a></div>
+
+       <div class="name">Rabbi Simcha Bunim Ehrenfeld</div>
+        </div>
+
+
+        <script>
+            $(document).ready(function () {
+        
+               $(".open").click(function () {
+                $(".popup").fadeIn(500);
+                $(".cover").fadeTo(500, 0.5);
+            });
+        
+            $(".close").click(function () {
+                $(".popup").fadeOut(500);
+                $(".cover").fadeOut(500);
+            });
+        });
+            </script>
+        
+
