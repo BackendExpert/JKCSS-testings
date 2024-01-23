@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+
 .jk-model{
     display: none;
     position: fixed;
@@ -14,7 +16,11 @@
     margin: 50px 30%;
     padding: 20px;
     border-radius: 5px;
+    font-family: Kanit;
 }
 .jk-mbody{
     padding: 5px 10px;
+}
+hr{
+    border: 1px solid red;
 }
