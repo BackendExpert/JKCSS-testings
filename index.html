@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <button class="jkbtn jkbtn-blue">Click Here</button>
+    <button class="jkbtn jkbtn-blue" id="jkbtn-popup">Click Here</button>
 
     <div class="jk-model" id="model-jk">
         <div class="jk-model-content">
@@ -21,11 +21,30 @@
                 <p>JKCSS is a one of Framework</p>
             </div>
             <div class="jk-mfooter">
-                <p>code by JKCSS</p>
+                <button class="jkbtn jkbtn-green" id="closeModel">Close</button>
             </div>
         </div>
     </div>
 
+
+    <script>
+        const jkmodebtn = document.querySelector('#jkbtn-popup');
+        const jkmodal = document.querySelector('#model-jk');
+        const closeModel = document.querySelector('#closeModel');
+
+        jkmodebtn.addEventListener('click', ModelJKOpen);
+        closeModel.addEventListener('click', ModeljkClosebtn);
+        window.addEventListener('click', OutsideJKModel)
+
+        function ModelJKOpen(){
+          jkmodal.style.display = 'block';
+        }
+
+        function ModeljkClosebtn(){
+          jkmodal.style.display = 'none';
+        }
+
+    </script>
 
 </body>
 </html>
