@@ -1,5 +1,4 @@
 .jk-popup{
-    width: 400px;
     background-color: white;
     border-radius: 8px;
     position: absolute;
@@ -12,6 +11,7 @@
     transition: transform 0.5s, top 0.5s;
     visibility: hidden;
     border: 1px solid gray;
+
 }
 
 .jk-popup-open{
