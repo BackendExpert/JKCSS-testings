@@ -1,4 +1,4 @@
-.control-jkforms, input[type=password]{
+.control-jkforms, input[type=password], input[type=email]{
     width: 100%;
     border: 1px solid rgb(187, 187, 187);
     height: 35px;
