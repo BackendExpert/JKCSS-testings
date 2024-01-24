@@ -5,4 +5,9 @@
     border-radius: 2px;
     padding: 0 10px;
     color: rgb(31, 31, 31);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.control-jkforms:active{
+    border: 1px solid rgb(255, 18, 18);
 }
