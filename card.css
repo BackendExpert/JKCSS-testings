@@ -1,4 +1,9 @@
 .jk-card{
     width: 100%;
-    
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.jk-card .header-card{
+    background: rgb(243, 243, 243);
+    padding: 15px 0;
 }
