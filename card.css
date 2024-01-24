@@ -5,5 +5,15 @@
 }
 .jk-card .header-card{
     background: rgb(243, 243, 243);
-    padding: 15px 10px;
+    padding: 20px 15px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.jk-card .content-card{
+    color: red;
+    padding: 20px 15px;
+}
+.jk-card .footer-card{
+    border-top: 1px solid rgb(204, 204, 204);
+    padding: 10px 15px;
+    background-color: rgb(241, 241, 241);
 }
