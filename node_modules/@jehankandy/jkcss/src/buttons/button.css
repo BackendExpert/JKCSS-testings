@@ -1,0 +1,123 @@
+.no-border, .jkbtn-info:hover, .jkbtn-info, .jkbtn-yellow:hover, .jkbtn-yellow, .jkbtn-red:hover, .jkbtn-red, .jkbtn-green:hover, .jkbtn-green, .jkbtn-gray:hover, .jkbtn-gray, .jkbtn-blue:hover, .jkbtn-blue {
+  border: none;
+  color: var(--text-color);
+}
+
+.jkbtn-blue {
+  background-color: var(--jk-blue);
+}
+
+.jkbtn-blue:hover {
+  background-color: var(--jk-blue-hover);
+}
+
+.jkbtn-gray {
+  background-color: var(--jk-gray);
+}
+
+.jkbtn-gray:hover {
+  background-color: var(--jk-gray-hover);
+}
+
+.jkbtn-green {
+  background-color: var(--jk-green);
+}
+
+.jkbtn-green:hover {
+  background-color: var(--jk-green-hover);
+}
+
+.jkbtn-red {
+  background-color: var(--jk-red);
+}
+
+.jkbtn-red:hover {
+  background-color: var(--jk-red-hover);
+}
+
+.jkbtn-yellow {
+  background-color: var(--jk-yellow);
+}
+
+.jkbtn-yellow:hover {
+  background-color: var(--jk-yellow-hover);
+}
+
+.jkbtn-info {
+  background-color: var(--jk-lightblue);
+}
+
+.jkbtn-info:hover {
+  background-color: var(--jk-lightblue-hover);
+}
+
+.jkbtn-blue-outline {
+  background: none;
+  border: 1px solid var(--jk-blue);
+  color: var(--jk-blue);
+}
+
+.jkbtn-blue-outline:hover {
+  background: var(--jk-blue);
+  color: var(--text-color);
+}
+
+.jkbtn-gray-outline {
+  background: none;
+  border: 1px solid var(--jk-gray);
+  color: var(--jk-gray);
+}
+
+.jkbtn-gray-outline:hover {
+  background: var(--jk-gray);
+  color: var(--text-color);
+}
+
+.jkbtn-green-outline {
+  background: none;
+  border: 1px solid var(--jk-green);
+  color: var(--jk-green);
+}
+
+.jkbtn-green-outline:hover {
+  background: var(--jk-green);
+  color: var(--text-color);
+}
+
+.jkbtn-red-outline {
+  background: none;
+  border: 1px solid var(--jk-red);
+  color: var(--jk-red);
+}
+
+.jkbtn-red-outline:hover {
+  background: var(--jk-red);
+  color: var(--text-color);
+}
+
+.jkbtn-yellow-outline {
+  background: none;
+  border: 1px solid var(--jk-yellow);
+  color: var(--jk-yellow);
+}
+
+.jkbtn-yellow-outline:hover {
+  background: var(--jk-yellow);
+  color: var(--text-color);
+}
+
+.jkbtn-info-outline {
+  background: none;
+  border: 1px solid var(--jk-lightblue);
+  color: var(--jk-lightblue);
+}
+
+.jkbtn-info-outline:hover {
+  background: var(--jk-lightblue);
+  color: var(--text-color);
+}
+
+.jkbtn:disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
