@@ -16,3 +16,7 @@
 .jk-table thead th:last-child{
     border-radius: 0 8px 0 0;
 }
+
+.hover-table tbody tr:hover{
+    
+}
