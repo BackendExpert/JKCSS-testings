@@ -18,5 +18,5 @@
 }
 
 .hover-table tbody tr:hover{
-    
+    background-color: red;
 }
