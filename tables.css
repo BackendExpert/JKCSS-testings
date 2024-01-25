@@ -1,6 +1,7 @@
 .jk-table{
     width: 100%;
     border-radius: 10px;
+    border: 0;
 }
 .jk-table thead th{
     height: 40px;
@@ -15,6 +16,10 @@
 }
 .jk-table thead th:last-child{
     border-radius: 0 8px 0 0;
+}
+
+.hover-table tbody tr{
+    transition: 0.5s;
 }
 
 .hover-table tbody tr:hover{
