@@ -1,3 +1,7 @@
 .jk-table{
     width: 100%;
 }
+.jk-table thead{
+    height: 40px;
+    background: rgb(233, 233, 233);
+}
