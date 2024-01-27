@@ -15,7 +15,9 @@
     border: 1px solid rgb(155, 155, 155);
 }
 .alertjk-green{
-
+    background: #1b8b57;
+    color: #1b8b57;
+    border: 1px solid #1b8b57;
 }
 
 .alertjk-red{
