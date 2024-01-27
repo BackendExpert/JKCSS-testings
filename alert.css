@@ -1,3 +1,11 @@
 .alertjk{
-    background: red;
+    padding: 20px 40px;
+    margin: 0 20px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.alertjk-blue{
+    background: #9bbef3;
+    color: rgb(35, 35, 252);
+    border: 1px solid rgb(92, 92, 253);
 }
