@@ -6,6 +6,7 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
+  display: none;
 }
 .modal-content{
   background: #fff;
@@ -21,9 +22,24 @@
   border-bottom: 1px solid rgb(223, 223, 223);
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  font-size: 20px;
-  
+  font-size: 20px;  
+}
+
+.close-btn{
+  float: right;
+  font-size: 25px;
+  border: none;
+  background: #e7e7e7;
+  padding-top: -10px;
 }
 .modal-body{
-  margin: 20px 15px;
+  margin: 30px 20px;
+}
+
+.modal-footer{
+  padding: 10px 20px;
+  background: #e7e7e7;
+  border-top: 1px solid rgb(223, 223, 223);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
