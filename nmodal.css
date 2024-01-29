@@ -1,11 +1,17 @@
 .modal{
     width: 450px;
     position: fixed;
-    top: 15%;
+    top: -50%;
     left: 50%;
     transform: translate(-50%, 50%);
     border: 1px solid rgb(196, 196, 196);
     border-radius: 0px;
+    background-color: #fff;
+    z-index: 2;
+    transition: top 0.5%  ease-in-out;
+}
+.modal:active{
+    top: 15%;
 }
 
 .header{
@@ -20,11 +26,18 @@
     padding: 1rem;
 }
 
+.close-btn{
+    color:white;
+}
 #overlay{
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+}
+#overlay:active{
+    display: block;
 }
