@@ -1,0 +1,21 @@
+.modal{
+    width: 450px;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 0px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid #ccc;
+}
+.body{
+    padding: 1rem;
+}
