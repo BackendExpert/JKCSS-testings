@@ -36,4 +36,9 @@
 .form-sm{
     height: 30px;
 }
-
+.control-jkforms[type=range]{
+    width: 100%;
+}
+.control-jkforms[type=range]:focus{
+    border: none;
+}
