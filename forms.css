@@ -1,48 +1,42 @@
-.control-jkforms, input[type=password], input[type=email], input[type=text] {
+.control-jkforms{
   width: 100%;
   border: 1px solid rgb(187, 187, 187);
+  height: 35px;
   border-radius: 3px;
-  margin: 6px 10px;
-  font-family: "Roboto", sans-serif;
+  padding: 0 10px;
+  color: rgb(31, 31, 31);
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
   outline: none;
   transition: 0.2s;
-  font-size: 15px;
-  color: rgb(31, 31, 31);
+  margin: 10px 0;
 }
-
-input[type=password], input[type=email], input[type=text] {
-  height: 40px;
-  padding: 0 10px;
-}
-
-.control-jkforms:focus, input[type=password]:focus, input[type=email]:focus, input[type=text]:focus, textarea:focus {
+.control-jkforms:focus {
   background-color: rgb(245, 245, 245);
-  -webkit-box-shadow: 0 0 5px 2px #57bafc;
-  -moz-box-shadow: 0 0 2px 2px #57bafc;
-  box-shadow: 0 0 2px 2px #57bafc;
+  -webkit-box-shadow: 0 0 2px 2px #84c1f3;
+  -moz-box-shadow: 0 0 2px 2px #84c1f3;
+  box-shadow: 0 0 2px 2px #84c1f3;
 }
 
-.w-20 {
+.w-20{
   width: 20%;
 }
-
-.w-40 {
+.w-40{
   width: 40%;
 }
-
-.w-60 {
+.w-60{
   width: 60%;
 }
-
-.w-80 {
+.w-80{
   width: 80%;
 }
 
-.form-lg {
+.form-lg{
   height: 60px;
-  font-size: 25px;
 }
-
-.form-sm {
+.form-sm{
   height: 30px;
+}
+.control-jkforms input[type=textarea]{
+  height: 1000px;
 }
