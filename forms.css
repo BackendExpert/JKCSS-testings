@@ -1,5 +1,5 @@
 .control-jkforms, input[type=password], input[type=email]{
-    width: 90%;
+    width: 100%;
     border: 1px solid rgb(187, 187, 187);
     height: 40px;
     border-radius: 3px;
@@ -36,4 +36,6 @@
 .form-sm{
     height: 30px;
 }
-
+.control-jkforms[type=textarea]{
+    margin: 20px 0;
+}
