@@ -2,6 +2,10 @@
     height: auto;
     width: auto;    
 }
+.sm{
+    height: 10%;
+    width: 10%;
+}
 .md{
     height: 30%;
     width: 30%;
