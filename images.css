@@ -14,3 +14,33 @@
     height: 30%;
     width: 30%;
 }
+.rounded-2{
+    border-radius: 2px;
+}
+.rounded-4{
+    border-radius: 4px;
+}
+.rounded-8{
+    border-radius: 8px;
+}
+.rounded-12{
+    border-radius: 12px;
+}
+.rounded-16{
+    border-radius: 16px;
+}
+.rounded-20{
+    border-radius: 20px;
+}
+.rounded-30{
+    border-radius: 30px;
+}
+.rounded-40{
+    border-radius: 40px;
+}
+.rounded-50{
+    border-radius: 50px;
+}
+.rounded-100{
+    border-radius: 100px;
+}
