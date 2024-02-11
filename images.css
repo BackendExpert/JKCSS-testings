@@ -44,3 +44,17 @@
 .rounded-100{
     border-radius: 100px;
 }
+
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-start{
+    justify-content: start;
+}
+
+.justify-end{
+    justify-content: end;
+}
