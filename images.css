@@ -70,6 +70,10 @@
 .justify-left{
     justify-content: left;
 }
+
+.justify-center{
+    justify-content: center;
+}
 .justify-test{
-    justify-content: baseline;
+    justify-content:center;
 }
