@@ -60,3 +60,9 @@
 .justify-even{
     justify-content: space-evenly;
 }
+.justify-around{
+    justify-content: space-around;
+}
+.justify-right{
+    justify-content: right;
+}
