@@ -1,0 +1,6 @@
+.md{
+    background:green;
+    @media (min-width:1000px) {
+        background:red;
+    }
+}
