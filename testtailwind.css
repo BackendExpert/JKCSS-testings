@@ -1,6 +1,4 @@
 .md{
-    background:green;
-    @media (min-width:1000px) {
-        background:red;
+    @media (min-width:600px) {
     }
 }
