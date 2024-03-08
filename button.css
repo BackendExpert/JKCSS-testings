@@ -1,8 +1,15 @@
 .btn-group{
+    width:fit-content;
     display: flex;
-    
+    background-color: red;
+    height: 10;
+    color: white;
+    padding: 0 20px;
+    border-radius: 5px;
 }
-.group-btn{
-    border: none;
-    border-radius: 0;
+button{
+    background: none;
+    border: 0;
+    color: white;
+    font-size: 22px;
 }
