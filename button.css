@@ -1,6 +1,5 @@
 .btn-group{
     width:fit-content;
-    display: flex;
     height: 10;
     border-radius: 5px;
 }
